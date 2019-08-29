@@ -16,7 +16,7 @@ public class StarWarsName{
     motherName=scanner.nextLine();
     System.out.println("Enter the city where you were born:");  
     bornWhere=scanner.nextLine();
-    System.out.println("Enter the first car you drove:");  
+    System.out.println("Enter the last car you drove:");  
     car=scanner.nextLine();
     //calls method to return string
     System.out.println(starNameGen(firstName.trim(), lastName.trim(), motherName.trim(), bornWhere.trim(), car.trim()));
